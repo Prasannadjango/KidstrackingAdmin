@@ -1,0 +1,155 @@
+@import 'bootstrap5.css';
+@import 'Responsive.css';
+
+
+.Searchbar {
+    display: flex;
+}
+.Header-container{
+    background: transparent linear-gradient(93deg, #1765FD 0%, #4FCB8D 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 2%);
+}
+.Searchbar input{
+    background: rgba(248, 250, 255, 0.16) 0% 0% no-repeat padding-box !important;
+    border: 1px solid rgba(248, 250, 255, 0.16);
+    color: #ffffff;
+   border-radius: 24px;
+   padding: 10px 20px;
+   color: #ffffff !important;
+}
+.Searchbar2 input{
+    background: #d9e2f3;
+    border: 1px solid rgba(248, 250, 255, 0.16);
+    color: #ffffff;
+   border-radius: 24px;
+   padding: 10px 20px;
+
+} 
+.Searchbar2 img{
+    position: absolute;
+    inset: 14px 0 0 61px;
+   
+}
+.Searchbar img{
+    position: absolute;
+    inset: 14px 0 0 61px;
+    filter: brightness(100);
+}
+.Searchbar input::placeholder{
+    color: #ffffff !important;
+}
+.right-icon{
+    filter: brightness(100);
+}
+.Card-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    color: #ffffff;
+    background: transparent linear-gradient(93deg, #1765FD 0%, #4FCB8D 100%) 0% 0% no-repeat padding-box;;
+}
+.Homepage-counts{
+    margin-bottom: 20px;
+}
+.Homepage-counts:hover{
+   
+    color: #ffffff;
+    background: transparent linear-gradient(93deg, #1765FD 0%, #4FCB8D 100%) 0% 0% no-repeat padding-box;
+}
+.Table-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.Table-img>img{
+    border-radius: inherit;
+}
+.Tableimg-text{
+    font-size: 13px;
+}
+td{
+   padding: 20px  !important;
+}
+
+.Homepage-maincontainer > h2{
+    padding-top: 30px;
+}
+.Adduser-forms > .col >.form-control , 
+.Adduser-forms > .col-xl-6 >.form-control ,
+select,
+.color-form > .form-control{
+    height: 60px;
+    color: #292d32;
+    border: 1px solid #F1F5FF !important;
+    background-color: #F1F5FF !important;
+    border-radius: 10px !important;
+    font-size: 14px;
+    padding: 10px 20px;
+    width: 100%;
+    transition: all ease 0.5s;
+}
+.Submit-btn{
+    background-color: #0d6efd;
+}
+.Plans-card{
+    border-radius: 0;
+    box-shadow: none;
+    border: 1px solid #b4b4b4 !important;
+}
+.Dollar-sign{
+    font-size: 14px;
+    color: #67748e;
+    font-weight: 500;
+    position: relative;
+    top: -25px
+}
+.per-month{
+    font-size: 14px;
+    color: #67748e;
+    font-weight: 500;
+   
+}
+.Plans-card > h1{
+    font-size: 64px;
+    margin-bottom: 25px;
+    color: #4fcb8d;
+}
+.plan-btn{
+    padding: 10px 20px;
+    color:#ffffff ;
+}
+.Plan-lists ul li {
+    margin-bottom: 15px;
+    color: #67748e;
+}
+.Plan-lists ul li svg{
+    float: right;
+    color: #4FCB8D;
+}
+.Reload-btn{
+    background-color: #5C31D6;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: inherit;
+}
+.Dropbtn{
+    height: 45px;
+    border-color: #BCC2CF;
+    cursor: pointer;
+    font-size: 12px;
+    color: #292D32;
+    background-color: transparent !important;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.btn-primary:hover{
+    color:#292D32 !important;
+}
+.Table-overflow{
+    overflow-y: scroll;
+    height: 300px;
+}

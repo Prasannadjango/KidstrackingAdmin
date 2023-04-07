@@ -1,0 +1,29 @@
+@media (min-width:320px) and (max-width:425px){
+    .Sidebar-container{
+        display: none;
+    }
+    .Header-container > div:first-child{
+        flex-direction: column;
+        margin: 10px ;
+    }
+    .Searchbar img{
+        left: 14px  !important;
+    }
+    .Logo-container{
+        display: flex;
+    }
+    .Searchbar{
+        display: none  !important;
+    }
+    .Responsive-links a{
+        font-size: 20px;
+       
+        text-decoration: none;
+        color: rgb(53, 55, 58);
+        padding-bottom: 15px;
+    }
+    .Menu-btn{
+        border: 0;
+        background-color: transparent !important;
+    }
+}
