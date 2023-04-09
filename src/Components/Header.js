@@ -15,7 +15,7 @@ export default function Header() {
     <>
       <div className="Header-container d-flex align-items-center justify-content-between">
         <div className="d-flex  align-items-center ">
-          <div></div>
+        
           <div className="Logo-container p-xl-4 p-1">
             <Button onClick={handleShow} className="Menu-btn p-0 me-3">
               <svg

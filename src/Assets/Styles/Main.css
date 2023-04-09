@@ -153,3 +153,6 @@ select,
     overflow-y: scroll;
     height: 300px;
 }
+.Menu-btn{
+    display: none;
+}

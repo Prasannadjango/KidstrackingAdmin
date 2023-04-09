@@ -24,15 +24,15 @@ export default function Supportmessage() {
     <>
       <Header />
       <div className="d-flex">
-        <div className="col-2">
+        <div className="col-2  Sidebar-container">
           <Sidebars className="w-100" />
         </div>
 
-        <div className="Homepage-maincontainer col-10 px-5 py-2">
+        <div className="Homepage-maincontainer col-xl-10 col-12 px-xl-5 py-xl-2 py-0 px-2">
           <h2 className="fw-bold">Support Messages</h2>
 
           <Row>
-            <Col xl={4}>
+            <Col xl={4} xs={12}>
               <Card className="my-4 p-4">
                 <div>
                   <div className="d-flex justify-content-between mb-4">
@@ -65,10 +65,10 @@ export default function Supportmessage() {
                 <hr className="my-3" />
               </Card>
             </Col>
-            <Col xl={8}>
+            <Col xl={8} xs={12}>
               <Card className="my-4">
                 <div className="Supportmessage-header p-4 d-flex align-items-center">
-                  <div className="d-flex position-relative Searchbar2 ps-5">
+                  <div className="d-flex position-relative Searchbar2 ps-xl-5 ps-0">
                     <img src={Searchicon} />
                     <input
                       className="form-control broder-0 w-100 ps-5"

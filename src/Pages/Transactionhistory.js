@@ -21,15 +21,15 @@ export default function Transacationhistory() {
     <>
       <Header />
       <div className="d-flex">
-        <div className="col-2">
+        <div className="col-2  Sidebar-container">
           <Sidebars className="w-100" />
         </div>
 
-        <div className="Homepage-maincontainer col-10 px-5 py-2">
+        <div className="Homepage-maincontainer col-xl-10 col-12 px-xl-5 px-2 py-2">
           <h2 className="fw-bold">Transaction history</h2>
 
           <Col>
-            <Card className="my-4">
+            <Card className="my-4 overflow-table">
               <Table striped>
                 <thead>
                   <tr className="text-center">
@@ -132,7 +132,7 @@ export default function Transacationhistory() {
             </Card>
 
             <div>
-            <Pagination>
+            <Pagination className="Pagination-container">
       <Pagination.First />
       
       <Pagination.Item>{1}</Pagination.Item>

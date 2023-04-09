@@ -24,11 +24,11 @@ export default function Subscription() {
       <Header />
 
       <div className="d-flex">
-        <div className="col-2">
+        <div className="col-2 Sidebar-container">
           <Sidebars className="w-100" />
         </div>
 
-        <div className="Homepage-maincontainer col-10 px-5 py-2">
+        <div className="Homepage-maincontainer col-xl-10 col-12 px-xl-5 px-2 py-2">
          <div className="d-flex justify-content-between py-3 align-items-center">
              <div>
              <h2 className="fw-bold">Subscription</h2>
