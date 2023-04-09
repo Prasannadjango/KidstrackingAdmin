@@ -22,11 +22,11 @@ export default function Adduser() {
       <Header />
 
       <div className="d-flex">
-        <div className="col-2">
+        <div className="col-2 Sidebar-container">
           <Sidebars className="w-100" />
         </div>
 
-        <div className="Homepage-maincontainer col-10 px-5 py-2">
+        <div className="Homepage-maincontainer col-xl-10 col-12 px-xl-5 px-3 py-2">
           <h2 className="fw-bold">Add New user</h2>
           <Form>
             <Row className="Adduser-forms py-4">

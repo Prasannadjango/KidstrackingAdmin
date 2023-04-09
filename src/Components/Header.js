@@ -61,6 +61,12 @@ export default function Header() {
             <div className="d-flex flex-column Responsive-links">
             <Link to='/'>Dashboard</Link>
             <Link to='/Subscription'>Subscription</Link>
+            <ul>
+              <li><Link to='/Parents'>Parents</Link></li>
+              <li><Link to='/Affiliate'>Affilate</Link></li>
+              <li><Link >school</Link></li>
+              <li><Link to='/Adduser'>Add user</Link></li>
+            </ul>
             <Link to='/Transactionhistory'>Transaction history</Link>
             <Link to='/Transactionhistory'>Withdrawl request</Link>
             <Link to='/Supportmessage'>Support message</Link>
